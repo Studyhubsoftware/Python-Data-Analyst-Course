@@ -20,7 +20,7 @@ def create_rectangle(turtle, color,x, y, width, height):
     turtle.setheading(0)
 t= Turtle()
 y = -100
-create_rectangle(t, "red",-15, y-60, 30,60)
+create_rectangle(t,"red",-15, y-60, 30,60)
 width = 240
 t.speed(10)
 while width > 10:
