@@ -1,5 +1,5 @@
 from sketchpy import canvas
-turtle = canvas.sketch(x_offset=290, offset=320)
+turtle = canvas.sketch(x_offset=290, y_offset=320)
 
 turtle.draw_fn("face_out", co=(233, 183, 151), mode=0)
 
