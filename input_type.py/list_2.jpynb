@@ -1,4 +1,0 @@
-from random  import randint
-
-x = []
-for i in range(25)
