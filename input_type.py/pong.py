@@ -21,24 +21,3 @@ def update():
     bbs=move_vertically(box_blue,bbs)
     bs=move_ball(ball,bs)
         
-
-#definition 
-def move_vertically(box,speed): #parameter box and speed
-    box.y+=speed
-    if box.bottom>=HEIGHT or box.top<=0:
-        speed=-speed
-    return speed
-
-
-def move_ball(b,s):
-    b.x+=s[0]
-    b.y+=s[1]
-    if b.bottom>=HEIGHT or b.top<=0:
-        s=s[0],-s[1]
-    if b.left<=0 or b.right>=WIDTH:
-        s=-s[0],s[1]
-    if b.colliderect(box_red) or b.colliderect(box_blue):
-        s=-s[0],s[1]
-    return s
-
-pgzrun.go()
