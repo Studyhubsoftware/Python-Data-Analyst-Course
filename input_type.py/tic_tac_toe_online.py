@@ -12,4 +12,4 @@ if __name__=="__main__":
     turn = 1 # 1 for x and 0 for 0
     print("Welcome to Tic Tac Toe")
     print("X's Chance")
-    printBoard()lll
+    printBoard()
